@@ -11,7 +11,7 @@ public class array {
             arr[i]=sc.nextInt();
         }
     for(int i=0;i<n;i++){
-            System.out.print(" "+arr[i] );
+            System.out.println(" "+arr[i] );
         }
     int max=arr[0];
     int min=arr[0];
@@ -22,7 +22,7 @@ public class array {
             min=arr[i];
         }}
 
-        System.out.println("Max: "+max+"Min: "+min);
+        System.out.println("Largest: "+max+" Smallest: "+min);
 
     }
 }
